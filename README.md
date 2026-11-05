@@ -18,6 +18,26 @@ Aplicativo Android que acompanha um trajeto por GPS e avisa quando o aparelho ch
 - Reagende rotinas após reinicialização do aparelho ou alterações de data e fuso horário.
 - Mantenha o resumo inferior do destino recolhido ao abrir o app; ele pode ser expandido manualmente.
 
+## Capturas de tela
+
+Capturas feitas com o aplicativo em execução em um Pixel 6 virtual (Android 15). O destino exibido é uma busca pública por “Rio de Janeiro”; não foi usada a localização pessoal do usuário. A permissão de localização não foi concedida durante esta demonstração, portanto o GPS real não está representado.
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/01-apresentacao.png" width="220" alt="Tela de apresentação inicial" /><br/>Apresentação</td>
+    <td align="center"><img src="docs/screenshots/02-mapa-inicial.png" width="220" alt="Tela principal com mapa" /><br/>Mapa principal</td>
+    <td align="center"><img src="docs/screenshots/03-destino-rio.png" width="220" alt="Mapa com destino público selecionado e raio de chegada" /><br/>Destino e raio</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/04-camadas.png" width="220" alt="Opções de camadas do mapa" /><br/>Camadas do mapa</td>
+    <td align="center"><img src="docs/screenshots/05-configuracoes.png" width="220" alt="Configurações gerais do despertador" /><br/>Configurações gerais</td>
+    <td align="center"><img src="docs/screenshots/06-widgets-rotinas.png" width="220" alt="Configurações de widgets e rotinas" /><br/>Widgets e rotinas</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/07-editar-rota.png" width="220" alt="Formulário para cadastrar uma rota" /><br/>Cadastro de rota</td>
+  </tr>
+</table>
+
 ## Requisitos
 
 - Android 8.0 (API 26) ou superior.
@@ -103,7 +123,7 @@ Os nomes das permissões e o fluxo de concessão variam conforme a versão do An
 - A resolução de um endereço para um ponto marcado usa o serviço de geocodificação disponibilizado pelo Android/aparelho, quando disponível.
 - O Android pode incluir dados do app em mecanismos de backup do dispositivo, conforme as configurações do sistema. Desinstalar o app pode remover o banco local, exceto se houver restauração por backup.
 
-Não publique capturas de tela, bancos locais, arquivos de configuração ou dados de localização. Os anexos do Codex, `local.properties`, arquivos de build e chaves de assinatura são excluídos pelo `.gitignore`.
+Não publique capturas com dados pessoais, bancos locais ou arquivos de configuração. As imagens de demonstração deste README foram revisadas para evitar dados de localização pessoal. Os anexos do Codex, `local.properties`, arquivos de build e chaves de assinatura são excluídos pelo `.gitignore`.
 
 ## Mapas e serviços de terceiros
 
