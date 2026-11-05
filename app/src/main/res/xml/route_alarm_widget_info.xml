@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="br.com.despertanoponto.RouteWidgetConfigActivity"
+    android:description="@string/widget_route_description"
+    android:initialLayout="@layout/widget_route_alarm"
+    android:minHeight="116dp"
+    android:minWidth="250dp"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable" />

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Desperta no Ponto</string>
+    <string name="widget_route_description">Atalho para iniciar um trajeto salvo e ver os tempos recentes.</string>
+</resources>

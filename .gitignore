@@ -1,0 +1,28 @@
+# Gradle and generated build outputs
+.gradle/
+.kotlin/
+**/build/
+out/
+
+# Local IDE and machine configuration
+.idea/
+.vscode/
+*.iml
+local.properties
+secrets.properties
+
+# Signing material and generated Android packages
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# Local databases and runtime data
+*.db
+*.db-shm
+*.db-wal
+
+# Personal attachments and operating-system files
+.codex-remote-attachments/
+.DS_Store
+Thumbs.db
